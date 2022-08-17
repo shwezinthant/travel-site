@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Footsteps| Home </title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <link rel="styleshe17a2b8et" type="text/css" href="font.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="custom.js"></script>
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+
+</head>
+<body>
+	<div id="banner">
+   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #17a2b8;">
+    <a class="navbar-brand mx-5 navHeader"  href="index.html">Footsteps</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+
+   <div class="collapse navbar-collapse" id="navbarSupportedContent" style="z-index: 3;">
+     <ul class="navbar-nav mr-auto" style="font-size: 18px;">
+      <li class="nav-item active ">
+       <a class=" nav-link  " href="index.html">Home <span class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item navLink">
+       <a class="nav-link lllll" href="destination.html" style="margin-right: 10px">Destination</a>
+     </li>
+     <li class="nav-item navLink">
+       <a class="nav-link " href="service.html" style="margin-right: 10px">Service</a>
+     </li> <li class="nav-item navLink">
+       <a class="nav-link " href="about.html" style="margin-right: 10px">About</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link " href="contact.html"style="margin-right: 10px">Contact</a>
+     </li>
+
+   </ul>
+   <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</div>
+</nav>
+
+<p class="bannerheader offset-lg-4 col-lg-8 offset-md-4 col-md-8 offset-sm-3 col-sm-9">
+ Sea to Sky 
+</p>
+<a href="index.html"><p class="contact mt-3-4" style="font-size: 30px;color: #dc3545">Home</p>
+</a>
+</div>
+
+
+<div class="container my-4">
+
+  <p class="font-weight-bold mt-5" style="font-size: 30px;text-align: justify;">  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;<span style="color: #dc3545">Footsteps</span> is one of the best travel agency in Myanmar. We manage all the trip with three categories. We arrange for all of the trip with budget, midrange, and hight class. </p>
+
+  <hr class="my-3" >
+
+  <!--Carousel Wrapper-->
+  <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+    <!--Controls-->
+    <div class="controls-top my-2 text-center">
+      <a class="btn-floating mx-3 " href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-circle-left" style="font-size: 28px;color: #dc3545"></i></a>
+      <a class="btn-floating " href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-circle-right my-3" style="font-size: 28px;color: #dc3545"></i></a>
+    </div>
+    <!--/.Controls-->
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+      <li data-target="#multi-item-example" data-slide-to="1"></li>
+      <li data-target="#multi-item-example" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-2">
+              <div class="imgreview">
+                <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top" src="images/img31.jpg" style="height: 230px" alt="Card image cap">
+                <a href="review.html"><p id="review" onmouseover="imgreview()"></p></a>
+              </div> 
+              <div class="card-body">
+                <h4 class="card-title">Shan State - Inn Lay trip</h4>
+                <p class="card-text f18">Shan state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+                <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 7nights-8days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger budget " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger mid" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger hight" style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-6 col-lg-4  clearfix d-none d-md-block">
+           <div class="card mb-2">
+            <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top imgreview " src="images/img11.jpg" style="height: 230px;" 
+            alt="Card image cap">
+            <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+            <div class="card-body">
+              <h4 class="card-title">Kachin State</h4>
+              <p class="card-text f18">Kachin state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+              <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 8nights-9days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4  clearfix d-none d-lg-block">
+         <div class="card mb-2">
+          <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top imgreview" src="images/img.webp" style="height: 230px;"
+          alt="Card image cap">
+          <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+          <div class="card-body">
+            <h4 class="card-title">Yangon - Chaung Tar trip</h4>
+            <p class="card-text f18" >Chaung Tar is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+            <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 4nights-5days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/.First slide-->
+
+  <!--Second slide-->
+  <div class="carousel-item">
+
+    <div class="row">
+      <div class="col-md-6 col-lg-4 ">
+        <div class="card mb-2">
+          <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top imgreview" src="images/img.webp" style="height: 230px;" 
+          alt="Card image cap">
+          <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+          <div class="card-body">
+            <h4 class="card-title">Shan State - Inn Lay trip</h4>
+            <p class="card-text f18">Shan state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+            <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 8nights-9days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 col-lg-4  clearfix d-none d-md-block">
+       <div class="card mb-2">
+        <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top imgreview" src="images/img10.jpg" style="height: 230px;" 
+        alt="Card image cap">
+        <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+        <div class="card-body">
+          <h4 class="card-title">Shan State - Inn Lay trip</h4>
+          <p class="card-text f18">Shan state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+           <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 8nights-9days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4  clearfix d-none d-lg-block">
+     <div class="card mb-2">
+      <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top imgreview" src="images/img10.jpg" style="height: 230px;" 
+      alt="Card image cap">
+      <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+      <div class="card-body">
+        <h4 class="card-title">Shan State - Inn Lay trip</h4>
+        <p class="card-text f18">Shan state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+         <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 8nights-9days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--/.Second slide-->
+
+<!--Third slide-->
+<div class="carousel-item">
+
+  <div class="row">
+    <div class="col-md-6 col-lg-4 ">
+      <div class="card mb-2">
+        <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top imgreview" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+        alt="Card image cap">
+        <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+        <div class="card-body">
+          <h4 class="card-title">Shan State - Inn Lay trip</h4>
+          <p class="card-text f18">Shan state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+           <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 8nights-9days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-6 col-lg-4  clearfix d-none d-md-block">
+     <div class="card mb-2">
+      <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top imgreview" src="images/img.webp" style="height: 230px;" 
+      alt="Card image cap">
+      <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+      <div class="card-body">
+        <h4 class="card-title">Shan State - Inn Lay trip</h4>
+        <p class="card-text f18">Shan state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+        <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 8nights-9days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-4  clearfix d-none d-lg-block">
+   <div class="card mb-2">
+    <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top imgreview" src="images/img10.jpg" style="height: 230px;" 
+    alt="Card image cap">
+    <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+    <div class="card-body">
+      <h4 class="card-title">Shan State - Inn Lay trip</h4>
+      <p class="card-text f18">Shan state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+      <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 8nights-9days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!--/.Third slide-->
+
+</div>
+<!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+
+</div> <!-- end of first container -->
+
+
+<div class="container-fluid destinationSection">
+<div class="container">
+<hr class="my-5" >
+<p id="season" class="text-center my-5" style="font-size: 30px;">Footsteps choose the <span style="color: #dc3545">seasonable</span> trip for today.</p>
+
+<div class="row">
+  <div class="col-md-6 col-lg-4 hoverImg px-lg-2 offset-sm-1 offset-md-0 offset-lg-0 col-sm-10 px-sm-3">
+    <div class="card mb-2">
+      <a href="summertrips.html" style="text-decoration: none;"><img class="img-fluid rounded imgheight" onmouseover="" src="images/img9.jpg" style="width: 100%"></a>
+      <p class=" mycardtop pl-sm-3 pl-md-0 pl-lg-0"><a style="text-decoration: none; color:white" href="summertrips.html">SUMMER TRIP</a></p>
+
+      <p class="bestEpxerience pl-sm-3 pl-md-0 pl-lg-0"><a style="text-decoration: none;
+      color:white" href="summertrips.html">BEST EXPERIENCES </a></p>
+    </div>
+  </div>
+
+ <div class="col-md-6 col-lg-4 hoverImg px-lg-2 offset-sm-1 offset-md-0 offset-lg-0 col-sm-10 px-sm-3">
+    <div class="card mb-2">
+      <a href="summertrips.html" style="text-decoration: none;"><img class="img-fluid rounded imgheight" onmouseover="" src="images/img21.jpg" style="width: 100%"></a>
+      <p class=" mycardtop pl-sm-3 pl-md-0 pl-lg-0"><a style="text-decoration: none; color:white" href="summertrips.html">WINTER TRIPS</a></p>
+
+      <p class="bestEpxerience pl-sm-3 pl-md-0 pl-lg-0"><a style="text-decoration: none;
+      color:white" href="summertrips.html">BEST EXPERIENCES </a></p>
+    </div>
+  </div>
+
+
+<div class="col-md-6 col-lg-4 hoverImg px-lg-2 offset-sm-1 offset-md-0 offset-lg-0 col-sm-10 px-sm-3">
+    <div class="card mb-2">
+      <a href="summertrips.html" style="text-decoration: none;"><img class="img-fluid rounded imgheight" onmouseover="" src="images/img22.jpeg" style="width: 100%"></a>
+      <p class=" mycardtop pl-sm-3 pl-md-0 pl-lg-0"><a style="text-decoration: none; color:white" href="summertrips.html">WINTER TRIPS</a></p>
+
+      <p class="bestEpxerience pl-sm-3 pl-md-0 pl-lg-0"><a style="text-decoration: none;
+      color:white" href="summertrips.html">BEST EXPERIENCES </a></p>
+    </div>
+  </div>
+</div>
+</div>
+<hr class="my-5" >
+</div>
+
+<div class="container">
+
+<p style="font-size: 30px;" class="text-center mb-4"> You can choose the best trips with the <span style="color: #dc3545">duration</span> of time</p>
+<div class="offset-lg-5 offset-sm-4 f18">
+  <p>
+    <input type="radio" id="test6" name="radio-group">
+    <label for="test6">2 nights - 3 days</label>
+  </p>  
+  <p>
+    <input type="radio" id="test1" name="radio-group" checked>
+    <label for="test1">3 nights - 4 days</label>
+  </p>
+  <p>
+    <input type="radio" id="test2" name="radio-group">
+    <label for="test2">4 nights - 5 days</label>
+  </p>
+  <p>
+    <input type="radio" id="test3" name="radio-group">
+    <label for="test3">5 nights - 6 days</label>
+  </p>
+  <p>
+    <input type="radio" id="test4" name="radio-group" >
+    <label for="test4">6 nights - 7 days</label>
+  </p>
+  <p>
+    <input type="radio" id="test5" name="radio-group">
+    <label for="test5">8 nights - 9 days</label>
+  </p>
+</div>
+
+<a class="btn btn-danger  offset-md-4 offset-lg-4 offset-sm-4  mt-3 mb-3" style="width: 30%; color: white" id="searchDuration"> Search</a>
+
+
+<div id="resultDuration"></div>
+
+
+</div> <!-- first container div -->
+
+
+
+<!-- Find the best route with the destination
+-->
+<div class="destinationSection">
+  <hr class="my-5">
+<p style="font-size: 30px;" class="text-center"> Find the best route with the <span style="color: #dc3545">destination</span></p>
+<div>
+  <table style="margin-top: -230px;" cellpadding="10" cellspacing="8" class="offset-lg-5 offset-sm-4" border="0">
+   
+      <tr>
+      <td><a href="yangon.html" style="text-decoration: none; color: #333333" ><span style="font-size: 24px;" class="hoverText">Yangon</span></a></td>
+      <td><a href="yangon.html"><span class="badge badge-danger mybadge">7</span></a></td>
+    </tr>
+   
+    <br>
+    <tr>
+      <td><span style="font-size: 24px;" class="hoverText">Mandalay </span></td>
+      <td><span class="badge badge-danger mybadge">6</span></td>
+    </tr>
+    <br>
+    <tr>
+      <td>
+        <span style="font-size: 24px;" class="hoverText">Taunggyi</span>   
+      </td>
+      <td>
+        <span class="badge badge-danger mybadge">10</span>
+      </td>
+      <br>
+    </tr>
+    <tr>
+      <td>
+        <span style="font-size: 24px;" class="hoverText">Shan State</span>
+      </td>
+      <td>
+        <span class="badge badge-danger mybadge">9</span>
+      </td>
+      <br>
+    </tr>
+    <tr>
+      <td>
+        <span style="font-size: 24px;" class="hoverText">Pyin Oo Lwin</span>
+      </td>
+      <td>
+        <span class="badge badge-danger mybadge">11</span>
+      </td>
+      <br>
+    </tr>
+    <tr>
+      <td>
+        <span style="font-size: 24px;" class="hoverText">Kayin State</span>   
+      </td>
+      <td>
+        <span class="badge badge-danger mybadge">5</span>  
+      </td>
+      <br>
+    </tr>
+    <tr>
+      <td>
+        <span style="font-size: 24px;" class="hoverText">Kachin State</span> 
+      </td>
+      <td>
+        <span class="badge badge-danger mybadge">7</span> 
+      </td>
+      <br>
+    </tr>
+    <tr>
+      <td>
+        <span style="font-size: 24px;" class="hoverText">Beach Trip</span> 
+      </td>
+      <td>
+        <span class="badge badge-danger mybadge">8</span> 
+      </td>
+      <br>
+    </tr>
+    <tr>
+      <td>
+        <span style="font-size: 24px;" class="hoverText">Myate </span> 
+      </td>
+      <td>
+       <span class="badge badge-danger mybadge">3</span> 
+     </td>
+     <br>
+   </tr>
+   <tr>
+    <td>
+      <span style="font-size: 24px;" class="hoverText">Bagan</span> 
+    </td>
+    <td>
+      <span class="badge badge-danger mybadge">6</span>
+    </td><br>
+  </tr>
+  <tr>
+    <td>
+      <span style="font-size: 24px;" class="hoverText">Mawla Myine</span> 
+    </td>
+    <td>
+      <span class="badge badge-danger mybadge">2</span>
+    </td>
+    <br>
+  </tr>
+  <tr>
+    <td>
+      <span style="font-size: 24px;" class="hoverText">Chauk</span>
+    </td>
+    <td>
+      <span class="badge badge-danger mybadge">1</span>
+    </td>
+  </tr>
+
+</table>
+</div>
+<hr class="my-5"> 
+</div>
+
+
+
+
+<!-- personal trip form -->
+<div class="container">
+
+<p style="font-size: 30px;" class="text-center mt-3">The most happiness trip is the traveling with <span style="color: #dc3545">Love</span></p>
+<p style="font-size: 24px;" class="text-center mb-5">Make your own trip</p>
+<form class="offset-lg-3 f18">
+  <div class="form-row ">
+    <div class="col-lg-4 mb-3 col-md-6">
+      <label for="validationServer01">Name</label>
+      <input type="text" class="personalform-control" id="validationServer01" value="" required>
+    </div>
+    <div class="col-lg-4 mb-3 col-md-6">
+      <label for="validationServer02">Phone No.</label>
+      <input type="text" class="personalform-control" id="validationServer02" value="" required>
+    </div>
+    <div class="col-lg-8 col-mg-12 mb-3">
+      <label for="validationServer02">Address</label>
+      <input type="text" class="personalform-control" id="validationServer02" value="" placeholder="19 Main Street" required>
+    </div>
+
+  </div><!-- row -->
+  <div class="row">
+
+   <div class=" col-lg-5 col-md-6">
+    <label for="validationServer02">Destination</label>
+    <select class="custom-select personalform-control" required>
+      <option value="">Yangon</option>
+      <option value="1">Mandalay</option>
+      <option value="2">Nay Pyi Taw</option>
+      <option valcol-md-ue="3">Chaung Tar</option>
+      <option value="">Kachin State</option>
+      <option value="1">Kayar State</option>
+      <option value="2">Taunggyi</option>
+      <option value="3">Kalaw</option>
+    </select>
+  </div>
+  <div class="col-lg-3 col-md-6 mb-3">
+    <label for="validationServer02">People No.</label>
+    <input type="text" class="personalform-control" id="validationServer02" value="" required>
+  </div>
+</div>
+<div class="row">
+
+  <div class="col-lg-2 col-md-4 mb-3">
+  <label for="validationServer02">Start Date</label>
+  <input type="text" class="personalform-control" id="validationServer02" value="" placeholder="dd/mm/yy" required>
+</div>
+
+<div class=" col-lg-3 col-md-4">
+  <label for="validationServer02">Duration</label>
+  <select class="custom-select personalform-control" required>
+    <option value="">3-4 days</option>
+    <option value="1">4-5 days</option>
+    <option value="2">5-6 days</option>
+    <option value="3">6-7 days</option>
+    <option value="4">8-9 days</option>
+    <option value="5">9-10 days</option>
+  </select>
+</div>
+<div class=" col-lg-3 col-md-4">
+  <label for="validationServer02">Range</label>
+  <select class="custom-select personalform-control" required>
+    <option value="">Budget</option>
+    <option value="1">Mid-range</option>
+    <option value="2">Hight-class</option>
+  </select>
+</div>
+</div>
+  <a class="btn btn-danger col-lg-8 mt-3 mb-5" style="color: white" id="sendOrder"> Send Order</a>
+<p class="" style="color: #dc3545;font-size: 24px;" id="willcontact"></p>
+</form>
+
+
+
+</div>
+
+
+<!-- photo gallery
+ -->
+ <div class="container-fluid destinationSection pt-3">
+  <div class="container">
+    <p style="font-size: 30px;" class="text-center mt-3"> Photo <span style="color: #dc3545">Gallery</span></p>
+
+   <div class="row">
+     <div class="col-lg-3 col-md-4 my-3">
+     <img src="images/fri1.jpg" class="img-fluid rounded">
+   </div>
+   <div class="col-lg-3 col-md-4 my-3">
+     <img src="images/fri2.jpg" class="img-fluid rounded">
+   </div>
+   <div class="col-lg-3 col-md-4 my-3">
+     <img src="images/fri3.jpg" class="img-fluid rounded">
+   </div>
+   <div class="col-lg-3 col-md-4 my-3">
+     <img src="images/fri4.jpg" class="img-fluid rounded">
+   </div>
+   <div class="col-lg-3 col-md-4 my-3">
+     <img src="images/fri5.jpg" class="img-fluid rounded">
+   </div>
+   <div class="col-lg-3 col-md-4 my-3">
+     <img src="images/fri6.jpg" class="img-fluid rounded">
+   </div>
+   <div class="col-lg-3 col-md-4 my-3">
+     <img src="images/fri7.jpg" class="img-fluid rounded">
+   </div>
+   <div class="col-lg-3 col-md-4 my-3">
+     <img src="images/fri1.jpg" class="img-fluid rounded">
+   </div>
+   </div>
+  </div>
+   <hr class="my-5">
+</div>
+<!-- business partner -->
+
+
+<div class="container-fluid ">
+ 
+<div class="container">
+<p style="font-size: 30px;" class="text-center mt-3"> Our Business <span style="color: #dc3545">Partners</span></p>
+<div class="row">
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <img src="images/logo1.jpg" class="img-fluid">
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <img src="images/logo4.jpg" class="img-fluid">
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <img src="images/logo3.jpg" class="img-fluid">
+ </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <img src="images/logo4.jpg" class="img-fluid">
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <img src="images/logo5.jpg" class="img-fluid">
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <img src="images/logo1.jpg" class="img-fluid">
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <img src="images/logo4.jpg" class="img-fluid">
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <img src="images/logo1.jpg" class="img-fluid">
+  </div>
+</div>
+
+</div>
+</div> <!-- last  container-fluid container div -->
+
+<footer id="footer"></footer>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

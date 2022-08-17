@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Summertrips</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	
+</head>
+<body>
+	 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #17a2b8;">
+    <a class="navbar-brand mx-5 navHeader"  href="index.html">Footsteps</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+
+   <div class="collapse navbar-collapse" id="navbarSupportedContent" style="z-index: 3;">
+     <ul class="navbar-nav mr-auto" style="font-size: 18px;">
+      <li class="nav-item ">
+       <a class=" nav-link  " href="index.html">Home <span class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item navLink active">
+       <a class="nav-link lllll" href="destination.html" style="margin-right: 10px">Destination</a>
+     </li>
+     <li class="nav-item navLink">
+       <a class="nav-link " href="service.html" style="margin-right: 10px">Service</a>
+     </li> <li class="nav-item navLink">
+       <a class="nav-link " href="about.html" style="margin-right: 10px">About</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link " href="contact.html"style="margin-right: 10px">Contact</a>
+     </li>
+
+   </ul>
+   <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</div>
+</nav>
+
+
+<div class="container">
+	<p class="text-center my-5" style="font-size: 30px;"><span style="color: #dc3545">Summer</span> Trips</p>
+    <div class="row">
+          <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-2">
+              <div class="imgreview">
+                <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top h-100" src="images/img11.jpg" style="height: 230px" alt="Card image cap">
+                <a href="review.html"><p id="review" onmouseover="imgreview()"></p></a>
+              </div> 
+              <div class="card-body">
+                <h4 class="card-title">Shan State - Inn Lay trip</h4>
+                <p class="card-text f18">Shan state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+                <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 7nights-8days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  budget  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger mid" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger hight" style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-6 col-lg-4">
+           <div class="card mb-2">
+            <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top h-100 imgreview " src="images/img10.jpg" style="height: 230px;" 
+            alt="Card image cap">
+            <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+            <div class="card-body">
+              <h4 class="card-title">Kachin State</h4>
+              <p class="card-text f18">Kachin state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+              <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 8nights-9days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+         <div class="card mb-2">
+          <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top h-100 imgreview" src="images/img.webp" style="height: 230px;"
+          alt="Card image cap">
+          <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+          <div class="card-body">
+            <h4 class="card-title">Yangon - Chaung Tar trip</h4>
+            <p class="card-text f18" >Chaung Tar is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+            <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 4nights-5days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+          </div>
+        </div>
+      </div>
+   
+          <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-2">
+              <div class="imgreview">
+                <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top h-100" src="images/img11.jpg" style="height: 230px" alt="Card image cap">
+                <a href="review.html"><p id="review" onmouseover="imgreview()"></p></a>
+              </div> 
+              <div class="card-body">
+                <h4 class="card-title">Shan State - Inn Lay trip</h4>
+                <p class="card-text f18">Shan state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+                <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 7nights-8days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-6 col-lg-4 ">
+           <div class="card mb-2">
+            <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top h-100 imgreview " src="images/img10.jpg" style="height: 230px;" 
+            alt="Card image cap">
+            <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+            <div class="card-body">
+              <h4 class="card-title">Kachin State</h4>
+              <p class="card-text f18">Kachin state is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+              <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 8nights-9days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ">
+         <div class="card mb-2">
+          <img onmouseover="imgreview()" onmouseout="imgreviewhide()" class="card-img-top h-100 imgreview " src="images/img.webp" style="height: 230px;"
+          alt="Card image cap">
+          <a href=""><p id="review" onmouseover="imgreview()"></p></a> 
+          <div class="card-body">
+            <h4 class="card-title">Yangon - Chaung Tar trip</h4>
+            <p class="card-text f18" >Chaung Tar is one of the interesting state in Myanmar because of the natural culture and the beautiful places....</p>
+            <i class="fas fa-clock mb-2" style="color: #dc3545"><span style="color: #333333" class="f18"> 4nights-5days</span></i><br>
+                <i class="fas fa-dollar-sign mb-2 pr-2"  style="color: #dc3545"> <span style="color: #333333;font-family:'c'" id="price" > Choose type</span></i><br>
+                <a class="btn  btn-outline-danger " style="width: 32%;" onclick="budgetPrice()">Budget</a>
+                
+                <a class="btn btn-outline-danger" style="width: 32%" onclick="midPrice()">Mid</a>
+                <a class="btn btn-outline-danger " style="width: 32%" onclick="hightPrice()">Hight</a><br>
+
+                <a class="btn btn-info btn-block my-2 text-white">Booking Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div> <!-- container div -->
+
+<div class="container">
+			<div class="row pl-lg-5">
+				<p class="text-center my-4 col-lg-12" style="font-size: 30px;">Related <span style="color: #dc3545">recommentaions</span></p><br>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+				<img class="img-fluid rounded" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg">
+				<p class="f188 pl-3">Kalaw-Taunggyi Trip</p>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6"><img class="img-fluid rounded"  src="images/img1.jpg">
+				<span class="f188 pl-3">Taunggyi Trip</span>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6"><img class="img-fluid rounded"  src="images/img13.jpg">
+				<span class="f188 pl-3">Aung Pan Trip</span>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+				<img class="img-fluid rounded"  src="images/img5.jpg">
+				<span class="f188 pl-3">Ping Taya Trip</span>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6"><img class="img-fluid rounded"  src="images/img1.jpg">
+				<span class="f188 pl-3">Taunggyi Trip</span>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6"><img class="img-fluid rounded"  src="images/img13.jpg">
+				<span class="f188 pl-3">Aung Pan Trip</span>
+				</div>
+				
+
+			</div>
+	</div>
+
+	
+	
+</body>
+<footer class="mt-5" id="footer"></footer>
+</html>
